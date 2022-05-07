@@ -20,7 +20,6 @@ public class Main {
 
     public static void main(String[] args) {
         String[] columnMapping = {"id", "firstName", "lastName", "country", "age"};
-        List<Employee> list = parseCSV(columnMapping, "data.csv");
         //writeString("data.json", listToJson(parseCSV(columnMapping, "data.csv")));
         writeString("data2.json", listToJson(parseXML("data.xml")));
     }
